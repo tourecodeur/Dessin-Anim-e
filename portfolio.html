@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <link rel="stylesheet" href="./CSS/style.css" />
+  <link rel="stylesheet" href="./CSS/style-tabs.css" />
+  <link rel="stylesheet" href="./CSS/style-responsive.css" />
+  <link rel="shortcut icon" href="https://64.media.tumblr.com/d72c323d06024bac6f3e2ff393888436/b5aee68b4f16152b-a7/s640x960/a219a2049a18a79385836f4b457452809e71b85f.png" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;display=swap" rel="stylesheet" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+
+  <title>Kimchi</title>
+</head>
+
+<body>
+  <div class="sec-1" id="title">
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <img class="icon" src="https://res.cloudinary.com/kimchidrwas/image/upload/v1627061292/Portfolio%20images/signature_e66q6w.png" alt="icon" />
+        <div class="collapse navbar-collapse navbar-in" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="https://kimchidraws.github.io/comisiones-paginaweb/" tabindex="-1" aria-disabled="true">Esp</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html" tabindex="-1" aria-disabled="true">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="./portfolio.html">
+                 Portfolio<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./commissions.html" tabindex="-1" aria-disabled="true">Commissions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./aboutme.html" tabindex="-1" aria-disabled="true">
+                About me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--NAVBAR-->
+
+    
+    <div class="container-fluid">
+      <p class="subtitle-tab">Portfolio</p>
+      <!--Carousel-->
+      <div class="row justify-content-center">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active carousel1"></div>
+            <div class="carousel-item carousel2"></div>
+            <div class="carousel-item carousel3"></div>
+          </div>
+        </div>
+      </div>
+      <!--Carousel-->
+
+      <!--Portfolio-->
+      <div class="row mt-5 justify-content-center">
+        <div class="porfolio-gallery">
+          <img id="gallery-image1" alt="Banmoku" onclick="expandImg('gallery-image1')"
+            src="https://res.cloudinary.com/kimchidrwas/image/upload/v1629329795/Portfolio%20images/Porfolio/Banmoku_light3_gaydcg.png" />
+        </div>
+        <div class="porfolio-gallery">
+          <img id="gallery-image2" alt="Myx" onclick="expandImg('gallery-image2')"
+            src="https://res.cloudinary.com/kimchidrwas/image/upload/v1629329758/Portfolio%20images/Porfolio/myx_ulplvx.png" />
+        </div>
+        <div class="porfolio-gallery">
+          <img id="gallery-image3" alt="Banmoku" onclick="expandImg('gallery-image3')"
+            src="https://res.cloudinary.com/kimchidrwas/image/upload/v1629329780/Portfolio%20images/Porfolio/banmoku_jfbo0g.png" />
+        </div>
+        <div class="porfolio-gallery">
+          <img id="gallery-image4" alt="Drowned memories" onclick="expandImg('gallery-image4')"
+            src="https://res.cloudinary.com/kimchidrwas/image/upload/v1629329796/Portfolio%20images/Porfolio/pinkuRenderFinal3_mwczmf.png" />
+        </div>
+      </div>
+      <!--Portfolio 2-->
+      <div class="row justify-content-center">
+        <div class="porfolio-gallery">
+          <img id="gallery-image5" alt="Banmoku" onclick="expandImg('gallery-image5')"
+            src="https://res.cloudinary.com/kimchidrwas/image/upload/v1629329768/Portfolio%20images/Porfolio/banm_irq43w.png" />
+        </div>
+        <div class="porfolio-gallery">
+          <img id="gallery-image6" alt="Moth man" onclick="expandImg('gallery-image6')"
+            src="https://res.cloudinary.com/kimchidrwas/image/upload/v1629329752/Portfolio%20images/Porfolio/moth_hpor5f.png" />
+        </div>
+        <div class="porfolio-gallery">
+          <img id="gallery-image7" alt="Commission" onclick="expandImg('gallery-image7')"
+            src="https://res.cloudinary.com/kimchidrwas/image/upload/v1629329803/Portfolio%20images/Porfolio/12_xfcmkz.png" />
+        </div>
+        <div class="porfolio-gallery">
+          <img id="gallery-image8" alt="Naoko and Haru" onclick="expandImg('gallery-image8')"
+            src="https://res.cloudinary.com/kimchidrwas/image/upload/v1629329790/Portfolio%20images/Porfolio/Furritos_bosque_czhdsf.png" />
+        </div>
+      </div>
+      <!--Portfolio 2-->
+    </div>
+  </div>
+
+  <!-- SEC2-->
+  <div class="sec-2">
+    <div class="container-fluid">
+      <!--Portfolio 3-->
+      <div class="row justify-content-center">
+        <div class="porfolio-gallery">
+          <img id="gallery-image9" alt="Commission" onclick="expandImg('gallery-image9')"
+            src="https://res.cloudinary.com/kimchidrwas/image/upload/v1629328467/Portfolio%20images/ICON/6_exlhxa.png" />
+        </div>
+        <div class="porfolio-gallery">
+          <img id="gallery-image10" alt="Toyhouse Character" onclick="expandImg('gallery-image10')"
+            src="https://res.cloudinary.com/kimchidrwas/image/upload/v1629329809/Portfolio%20images/Porfolio/Milan_l18a79.png" />
+        </div>
+        <div class="porfolio-gallery">
+          <img id="gallery-image11" alt="Commission" onclick="expandImg('gallery-image11')"
+            src="https://res.cloudinary.com/kimchidrwas/image/upload/v1629329803/Portfolio%20images/Porfolio/11_wnbo3f.png" />
+        </div>
+        <div class="porfolio-gallery">
+          <img id="gallery-image12" alt="Naoko" onclick="expandImg('gallery-image12')"
+            src="https://res.cloudinary.com/kimchidrwas/image/upload/v1629329743/Portfolio%20images/Porfolio/bunny2_pzt1kw.png" />
+        </div>
+      </div>
+      <!--Portfolio 4-->
+      <div class="row justify-content-center">
+        <div class="porfolio-gallery">
+          <img id="gallery-image13" alt="Kazuha" onclick="expandImg('gallery-image13')"
+            src="https://res.cloudinary.com/kimchidrwas/image/upload/v1629329775/Portfolio%20images/Porfolio/kazuha1_roywmh.png" />
+        </div>
+        <div class="porfolio-gallery">
+          <img id="gallery-image14" alt="Commission" onclick="expandImg('gallery-image14')"
+            src="https://res.cloudinary.com/kimchidrwas/image/upload/v1629329807/Portfolio%20images/Porfolio/15_yrgsz7.png" />
+        </div>
+        <div class="porfolio-gallery">
+          <img id="gallery-image15" alt="Myx" onclick="expandImg('gallery-image15')"
+            src="https://res.cloudinary.com/kimchidrwas/image/upload/v1629329818/Portfolio%20images/Porfolio/myx_reef_jh7sco.png" />
+        </div>
+        <div class="porfolio-gallery">
+          <img id="gallery-image16" alt="Vtuber ref-sheet commission" onclick="expandImg('gallery-image16')"
+            src="https://res.cloudinary.com/kimchidrwas/image/upload/v1629330503/Portfolio%20images/Porfolio/2.2_jlj8sj.png" />
+        </div>
+      </div>
+
+      <div class="row mt-3 mb-5 justify-content-center">
+        <a href="#title">
+          <i class="fas fa-angle-double-up button-up"></i>
+        </a>
+      </div>
+    </div>
+    <!-- SEC2-->
+
+     <!--Footer-->
+     <div class="footer">
+      <div class="container-fluid">
+        <div class="footer-content">
+          <p class="menu-footer d-none d-md-block">
+            <a href="./index.html"> Home</a> <br />
+            <a href="./portfolio.html"> Portfolio</a> <br />
+            <a href="./commissions.html"> Commissions</a> <br />
+            <a href="./aboutme.html"> About Me </a>
+          </p>
+          <figure class="firm-footer-container">
+            <img class="firm-footer" src="https://res.cloudinary.com/kimchidrwas/image/upload/v1627061292/Portfolio%20images/signature_e66q6w.png" />
+          </figure>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/kiimchi.draws/">
+              <i class="fab fa-facebook-f social"></i
+            ></a>
+            <a href="https://www.deviantart.com/kimchijaewoo">
+              <i class="fab fa-deviantart social"></i
+            ></a>
+            <a data-toggle="modal" data-target="#exampleModal">
+              <i class="far fa-envelope social"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Footer-->
+  </div>
+
+  <!-- Modal Contact -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title about-title" id="exampleModalLabel">
+            Contact me!
+          </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Please feel free to ask if you have any question!
+          <br />
+          <br />
+          You can contact me through email:
+          <!-- CLIPBOARD TARGET -->
+          <i id="email" style="color: #f991b0"> kimchi.draws@hotmail.com </i>
+          <br />
+          <br />
+          I'll respond as soon as possible!
+        </div>
+        <div class="modal-footer">
+          <button class="button-close" data-dismiss="modal">Close</button>
+          <!-- FIRES EMAIL COPY -->
+          <button id="copy" class="button" data-clipboard-target="#email">Copy email</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Contact -->
+
+  <!-- Modal gallery -->
+  <div id="modal2" class="modal2">
+    <span class="close">&times;</span>
+    <img class="modal2-content" id="gallery-image" />
+    <div id="caption"></div>
+  </div>
+  <!-- Modal gallery -->
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+  crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/21506e9718.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.8/dist/clipboard.min.js"></script>
+<script src="./JS/script.js"></script>
+</body>
+
+</html>

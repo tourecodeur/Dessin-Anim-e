@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/style-tabs.css" />
+    <link rel="stylesheet" href="./CSS/style-responsive.css" />
+    <link
+      rel="shortcut icon"
+      href="https://64.media.tumblr.com/d72c323d06024bac6f3e2ff393888436/b5aee68b4f16152b-a7/s640x960/a219a2049a18a79385836f4b457452809e71b85f.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+
+    <title>Kimchi</title>
+  </head>
+
+  <body>
+    <div class="sec-1">
+      <!--NAVBAR-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <img
+            class="icon"
+            src="https://res.cloudinary.com/kimchidrwas/image/upload/v1627061292/Portfolio%20images/signature_e66q6w.png"
+            alt="icon"
+          />
+          <div
+            class="collapse navbar-collapse navbar-in"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="https://kimchidraws.github.io/comisiones-paginaweb/" tabindex="-1" aria-disabled="true"
+                  >Esp</a
+                >
+              </li>
+            </ul>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="./index.html"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="./portfolio.html"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="./commissions.html">
+                  Commissions <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="./aboutme.html"
+                  tabindex="-1"
+                  aria-disabled="true"
+                >
+                  About me</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--NAVBAR-->
+
+      <div class="container-fluid">
+        <!--Commissions-->
+        <p class="subtitle-tab">Commissions</p>
+        <div class="row d-flex justify-content-center">
+          <div class="col-xl-8 col-lg-7 col-12 window">
+            <div class="window-top">
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item-com" role="presentation">
+                  <a
+                    class="nav-link nav-link-com active"
+                    id="home-tab"
+                    data-toggle="tab"
+                    href="#home"
+                    role="tab"
+                    aria-controls="home"
+                    aria-selected="true"
+                  >
+                    <i class="far fa-smile-beam"></i>
+                    <div class="d-none d-md-block ml-2">Icon</div>
+                  </a>
+                </li>
+                <li class="nav-item-com" role="presentation">
+                  <a
+                    class="nav-link nav-link-com"
+                    id="profile-tab"
+                    data-toggle="tab"
+                    href="#profile"
+                    role="tab"
+                    aria-controls="profile"
+                    aria-selected="false"
+                    ><i class="far fa-user"></i>
+                    <div class="d-none d-md-block ml-2">Halfbody</div>
+                  </a>
+                </li>
+                <li class="nav-item-com" role="presentation">
+                  <a
+                    class="nav-link nav-link-com"
+                    id="contact-tab"
+                    data-toggle="tab"
+                    href="#contact"
+                    role="tab"
+                    aria-controls="contact"
+                    aria-selected="false"
+                    ><i class="fas fa-male"></i>
+                    <div class="d-none d-md-block ml-2">Fullbody</div>
+                  </a>
+                </li>
+                <li class="nav-item-com" role="presentation">
+                  <a
+                    class="nav-link nav-com2"
+                    id="more-tab"
+                    data-toggle="tab"
+                    href="#more"
+                    role="tab"
+                    aria-controls="more"
+                    aria-selected="false" 
+                    ><i class="fas fa-plus"></i>
+                  </a>
+                </li>
+              </ul>
+
+              <div class="window-tab">
+                <i class="fas fa-minus p-1"></i>
+                <i class="far fa-window-maximize p-1"></i>
+                <i class="fas fa-times p-1"></i>
+              </div>
+            </div>
+
+            <div class="tab-content window-content" id="myTabContent">
+              <div
+                class="tab-pane fade show active"
+                id="home"
+                role="tabpanel"
+                aria-labelledby="home-tab"
+              >
+                <p class="window-title"><i class="fas fa-smile"></i>Icon</p>
+                <hr class="window-line" />
+                <div class="row d-flex justify-content-center mx-2 my-4">
+                  <div class="com-preview">
+                    <img
+                      src="https://res.cloudinary.com/kimchidrwas/image/upload/v1629326533/Portfolio%20images/ICON/Banmoku_light3_phbu7j.png"
+                      onclick="change(this.src, 'icon')"
+                    />
+                    <img
+                      src="https://res.cloudinary.com/kimchidrwas/image/upload/v1629328467/Portfolio%20images/ICON/6_exlhxa.png"
+                      onclick="change(this.src, 'icon')"
+                    />
+                    <img
+                      src="https://res.cloudinary.com/kimchidrwas/image/upload/v1629328262/Portfolio%20images/ICON/16_smvsfo.png"
+                      onclick="change(this.src, 'icon')"
+                    />
+                    <img
+                      src="https://res.cloudinary.com/kimchidrwas/image/upload/v1629329400/Portfolio%20images/ICON/pride_mmdr6v.png"
+                      onclick="change(this.src, 'icon')"
+                    />
+                    <a
+                      class="com-preview" target="_blank" 
+                      href="https://www.deviantart.com/kimchijaewoo/gallery/79296801/icon-examples"
+                    >
+                      <img
+                        src="https://res.cloudinary.com/kimchidrwas/image/upload/v1627061153/Portfolio%20images/Nuevo_Lienzo3_wrltxv.png"
+                      />
+                    </a>
+                  </div>
+                  <div class="com-image col-lg-5">
+                    <img
+                      src="https://res.cloudinary.com/kimchidrwas/image/upload/v1629326533/Portfolio%20images/ICON/Banmoku_light3_phbu7j.png"
+                      id="main-image"
+                      alt="IMAGE"
+                    />
+                  </div>
+                  <div class="com-information col-lg-4">
+                    <p class="com-information-title">$20 usd</p>
+                    <p class="com-information-subtitle">+ Extra characters</p>
+                    <p class="com-information-tat">Turn Around Time:</p>
+                    <p class="com-information-tat2">
+                      2 to 3 days max one week.
+                    </p>
+                    <p class="com-information-details">
+                      <i class="fas fa-exclamation-circle exclamation"></i> Details:
+                      <i class="com-information-details2">
+                        1500px x 1500px, full color, base color background,
+                        furry or humanoid.
+                      </i>
+                    </p>
+                    <p class="com-information-available">Available</p>
+                    <p class="com-information-more">
+                      <i class="far fa-flag"></i>
+                      <a href="#terms"> More information </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="profile"
+                role="tabpanel"
+                aria-labelledby="profile-tab"
+              >
+                <p class="window-title">
+                  <i class="fas fa-user-alt pr-2"></i> Halfbody
+                </p>
+                <hr class="window-line" />
+                <div class="row d-flex justify-content-center mx-2 my-4">
+                  <div class="com-preview">
+                    <img
+                      src="https://res.cloudinary.com/kimchidrwas/image/upload/v1629326493/Portfolio%20images/half/banmoku_tc5f5k.png"
+                      onclick="change(this.src, 'half')"
+                    />
+                    <img
+                      src="https://res.cloudinary.com/kimchidrwas/image/upload/v1629326484/Portfolio%20images/half/moth_ihaj7f.png"
+                      onclick="change(this.src, 'half')"
+                    />
+                    <img
+                      src="https://res.cloudinary.com/kimchidrwas/image/upload/v1629326485/Portfolio%20images/half/myx_jgcwyj.png"
+                      onclick="change(this.src, 'half')"
+                    />
+                    <img
+                      src="https://res.cloudinary.com/kimchidrwas/image/upload/v1629326491/Portfolio%20images/half/Furritos_bosque_mjqrny.png"
+                      onclick="change(this.src, 'half')"
+                    />
+                    <a
+                      class="com-preview" target="_blank" 
+                      href="https://www.deviantart.com/kimchijaewoo/gallery/79296804/halfbody-examples"
+                    >
+                      <img
+                        src="https://res.cloudinary.com/kimchidrwas/image/upload/v1627061153/Portfolio%20images/Nuevo_Lienzo3_wrltxv.png"
+                      />
+                    </a>
+                  </div>
+                  <div class="com-image col-lg-5">
+                    <img
+                      src="https://res.cloudinary.com/kimchidrwas/image/upload/v1629326493/Portfolio%20images/half/banmoku_tc5f5k.png"
+                      id="main-image2"
+                      alt="IMAGE"
+                    />
+                  </div>
+                  <div class="com-information col-lg-4">
+                    <p class="com-information-title">$25 usd</p>
+                    <p class="com-information-subtitle">+ Extra characters</p>
+                    <p class="com-information-tat">Turn Around Time:</p>
+                    <p class="com-information-tat2">
+                      4 to 5 days max one week.
+                    </p>
+                    <p class="com-information-details">
+                      <i class="fas fa-exclamation-circle"></i> Details:
+                      <i class="com-information-details2">
+                        1700px x 2125px, full color, base color background,
+                        furry or humanoid.
+                      </i>
+                    </p>
+                    <p class="com-information-available">Available</p>
+                    <p class="com-information-more">
+                      <i class="far fa-flag"></i>
+                      <a href="#terms"> More information </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="contact"
+                role="tabpanel"
+                aria-labelledby="contact-tab"
+              >
+                <p class="window-title">
+                  <i class="fas fa-child"></i> Fullbody
+                </p>
+                <hr class="window-line" />
+                <div class="row d-flex justify-content-center mx-2 my-4">
+                  <div class="com-preview">
+                    <img
+                      src="https://res.cloudinary.com/kimchidrwas/image/upload/v1629326751/Portfolio%20images/fullbody/pinkuRenderFinal3_jbvcg8.png"
+                      onclick="change(this.src, 'full')"
+                    />
+                    <img
+                      src="https://res.cloudinary.com/kimchidrwas/image/upload/v1629329264/Portfolio%20images/fullbody/myx_reef_hil2f7.png"
+                      onclick="change(this.src,'full')"
+                    />
+                    <img
+                      src="https://res.cloudinary.com/kimchidrwas/image/upload/v1629329260/Portfolio%20images/fullbody/aki_hm75ga.png"
+                      onclick="change(this.src,'full')"
+                    />
+                    <img
+                      src="https://res.cloudinary.com/kimchidrwas/image/upload/v1629326755/Portfolio%20images/fullbody/Biam_jb4kvp.png"
+                      onclick="change(this.src,'full')"
+                    />
+                    <a
+                      class="com-preview" target="_blank" 
+                      href="https://www.deviantart.com/kimchijaewoo/gallery/79296805/fullbody-examples">
+                      <img
+                        src="https://res.cloudinary.com/kimchidrwas/image/upload/v1627061153/Portfolio%20images/Nuevo_Lienzo3_wrltxv.png"
+                      />
+                    </a>
+                  </div>
+                  <div class="com-image col-lg-5">
+                    <img
+                      src="https://res.cloudinary.com/kimchidrwas/image/upload/v1629326751/Portfolio%20images/fullbody/pinkuRenderFinal3_jbvcg8.png"
+                      id="main-image3"
+                      alt="IMAGE"
+                    />
+                  </div>
+                  <div class="com-information col-lg-4">
+                    <p class="com-information-title">$35 usd</p>
+                    <p class="com-information-subtitle">+ Extra characters</p>
+                    <p class="com-information-tat">Turn Around Time:</p>
+                    <p class="com-information-tat2">5 to 7 days max 11days.</p>
+                    <p class="com-information-details">
+                      <i class="fas fa-exclamation-circle"></i> Details:
+                      <i class="com-information-details2">
+                        1500px x 2500px, full color, base color background,
+                        furry or humanoid.
+                      </i>
+                    </p>
+                    <p class="com-information-available">Available</p>
+                    <p class="com-information-more">
+                      <i class="far fa-flag"></i>
+                      <a href="#terms"> More information </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="tab-pane fade"
+                id="more"
+                role="tabpanel"
+                aria-labelledby="more-tab"
+              >
+                <p class="window-title">
+                  <i class="fas fa-cogs"></i> Custom
+                </p>
+                <hr class="window-line" />
+                <div class="row d-flex justify-content-center mx-2 my-4">
+                  <div class="com-preview">
+                    <img
+                      src="https://res.cloudinary.com/kimchidrwas/image/upload/v1629398534/Portfolio%20images/custom/Luca_Hern%C3%A1ndez_Anim_diqd95.gif"
+                      onclick="change(this.src, 'custom')" style="background-color: rgba(122, 23, 146, 0.082);"
+                    />
+                    <img
+                      src="https://res.cloudinary.com/kimchidrwas/image/upload/v1629326618/Portfolio%20images/custom/hatsu_lmikqz.png"
+                      onclick="change(this.src,'custom')"
+                    />
+                    <img
+                      src="https://res.cloudinary.com/kimchidrwas/image/upload/v1629399605/Portfolio%20images/custom/DinCorrec_tylxwq.png"
+                      onclick="change(this.src,'custom')"
+                    />
+                    <img
+                      src="https://res.cloudinary.com/kimchidrwas/image/upload/v1629400610/Portfolio%20images/custom/Sin_titulo_uwtgwb_rdottb.png"
+                      onclick="change(this.src,'custom')"
+                    />
+                    <a
+                      class="com-preview" target="_blank" 
+                      href="https://www.deviantart.com/kimchijaewoo/gallery/79296805/fullbody-examples">
+                      <img
+                        src="https://res.cloudinary.com/kimchidrwas/image/upload/v1627061153/Portfolio%20images/Nuevo_Lienzo3_wrltxv.png" 
+                      />
+                    </a>
+                  </div>
+                  <div class="com-image col-lg-5">
+                    <img
+                      src="https://res.cloudinary.com/kimchidrwas/image/upload/v1629398534/Portfolio%20images/custom/Luca_Hern%C3%A1ndez_Anim_diqd95.gif"
+                      id="main-image4"
+                      alt="IMAGE" 
+                    />
+                  </div>
+                  <div class="com-information col-lg-4">
+                    <p class="com-information-title">$50usd+</p>
+                    <p class="com-information-subtitle">  Contact me for more info </p>
+                    <p class="com-information-tat">Turn Around Time:</p>
+                    <p class="com-information-tat2">Depends on complexity.</p>
+                    <p class="com-information-details">
+                      <i class="fas fa-exclamation-circle"></i> Details:
+                      <i class="com-information-details2">
+                        Refsheets, vtubers, character design, videogame assets, comercial use or anything else.
+                      </i>
+                    </p>
+                    <p class="com-information-available">Available</p>
+                    <p class="com-information-more">
+                      <i class="far fa-flag"></i>
+                      <a href="#terms"> More information </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Commissions-->
+
+        <!--Terms and conditions-->
+        <div>
+          <p class="subtitle-tab" id="terms">Commissions</p>
+          <p class="subtitle2-tab">Terms & conditions</p>
+          <div class="row d-flex justify-content-center">
+            <div class="terms-info">
+              After chosing your commissions type, here is some information you
+              should be aware of before commissioning me. Almost everything that
+              you need to know is here, if there is anything you wanna know,
+              please feel free to ask!
+              <br> <br> 
+             You can check your commission status here: <a class="coms-list" href="https://docs.google.com/document/d/1uGGoCy5_mpWmxO-z26EvqFCzckvIoZunCluHHavA3wM/edit?usp=sharing"> <i> commissions list.</i></a> 
+            </div>
+          </div>
+          <div class="row d-flex justify-content-center">
+            <div class="terms-window">
+              <div class="terms-title">
+                <i class="fas fa-book-open pr-2"></i>Rules
+              </div>
+              <ul class="terms-details">
+                <li>
+                  Commissions are <b> not for commercial use </b>
+                  <i class="cursive">
+                    (If you are interested, please send me an email, so we can
+                    talk about it).</i
+                  >
+                </li>
+                <li>The prices are <b>NON-negotiable. </b></li>
+                <li>
+                  I'll upload to my gallery the drawing you commissioned me, so
+                  i can use it as<b> part of my portfolio.</b>
+                </li>
+                <li>
+                  If character
+                  <b> clothes are too complex the price could go up.</b>
+                </li>
+                <li>Detailed background it's <b> not included.</b></li>
+                <li>
+                  Two <b> free changes.</b>
+                  <i class="cursive"
+                    >(Not applied to drastical changes after the finished
+                    drawing).</i
+                  >
+                </li>
+                <li>
+                  I'll deliver you <b>3 different files: </b> transparent
+                  background, white background and color background.
+                </li>
+                <li><b> No refunds.</b></li>
+              </ul>
+              <div class="terms-title">
+                <i class="fas fa-plus pr-1"></i> Extra details
+              </div>
+              <ul class="terms-details mb-0 pb-0">
+                <li>
+                  Color or patern background <b> is included</b>
+                  <i class="cursive"
+                    >(If you want any specific color or patern please let me
+                    know).</i
+                  >
+                </li>
+                <li>
+                  Detailed background <b> price depends on complexity</b>
+                  <i class="cursive"> (around 5usd to 20usd).</i>
+                </li>
+                <li>
+                  Adding more characters to the drawing is
+                  <b> +50% of the commission price per character</b>
+                  <i class="cursive">
+                    (This means, if the commission it's $20, adding one more
+                    character would be +$10).
+                  </i>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sec-2">
+      <div class="container-fluid">
+        <div class="row d-flex justify-content-center">
+          <div class="terms-window2">
+            <div class="terms-title">
+              <i class="fas fa-dollar-sign pr-2"></i> Payment
+            </div>
+            <ul class="terms-details">
+              <li>
+                Payment only throught
+                <b
+                  ><i class="fab fa-paypal"></i>aypal or
+                  <i class="fas fa-coffee"></i> Ko-fi
+                </b>
+              </li>
+              <li>
+                Payment <b> must be sent first </b
+                ><i class="cursive"> (After we discuss details).</i>
+              </li>
+              <li>
+                <b>Can also be 50/50 </b>, first half after ordering the
+                commission an the other half when i notify you i finished it
+                <i class="cursive">
+                  (I'll send you a watermarked image, so you can be sure i did
+                  it, when i confirm i received the paymet i will send you the
+                  commission without the watermark).</i
+                >
+              </li>
+            </ul>
+            <div class="terms-title">
+              <i class="fas fa-hand-point-right pr-1"></i> I want a commission,
+              what's next?
+            </div>
+            <ul class="terms-details">
+              <li>
+                You can <b> send me an email</b> with the commission type,
+                reference images of the character(s)
+                <i class="cursive">
+                  (if you have more than one, it would be perfect)</i
+                >
+                and the rough idea of it.
+              </li>
+              <li>
+                I <b>can work with </b>description, mood board and reference
+                photos.
+              </li>
+              <li>
+                I'll reply <b> as soon as possible</b> with my payment info to
+                start working immediately.
+              </li>
+              <li>
+                I'll <b> keep you updated</b> with wips of it
+                <i class="cursive">
+                  (You can also indicate changes throught this wips).</i
+                >
+              </li>
+              <li>When i finish it <b>i'll send you a message.</b></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--Terms and conditions-->
+
+      <!--Footer-->
+      <div class="footer">
+        <div class="container-fluid">
+          <div class="footer-content">
+            <p class="menu-footer d-none d-md-block">
+              <a href="./index.html"> Home</a> <br />
+              <a href="./portfolio.html"> Portfolio</a> <br />
+              <a href="./commissions.html"> Commissions</a> <br />
+              <a href="./aboutme.html"> About Me </a>
+            </p>
+            <figure class="firm-footer-container">
+              <img
+                class="firm-footer"
+                src="https://res.cloudinary.com/kimchidrwas/image/upload/v1627061292/Portfolio%20images/signature_e66q6w.png"
+              />
+            </figure>
+            <div class="footer-social">
+              <a href="https://www.facebook.com/kiimchi.draws/">
+                <i class="fab fa-facebook-f social"></i
+              ></a>
+              <a href="https://www.deviantart.com/kimchijaewoo">
+                <i class="fab fa-deviantart social"></i
+              ></a>
+              <a data-toggle="modal" data-target="#exampleModal">
+                <i class="far fa-envelope social"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Footer-->
+    </div>
+
+    <!-- Modal Contact -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title about-title" id="exampleModalLabel">
+              Contact me!
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Please feel free to ask if you have any question!
+            <br />
+            <br />
+            You can contact me through email:
+            <!-- CLIPBOARD TARGET -->
+            <i id="email" style="color: #f991b0"> kimchi.draws@hotmail.com </i>
+            <br />
+            <br />
+            I'll respond as soon as possible!
+          </div>
+          <div class="modal-footer">
+            <button class="button-close" data-dismiss="modal">Close</button>
+            <!-- FIRES EMAIL COPY -->
+            <button id="copy" class="button" data-clipboard-target="#email">
+              Copy email
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Contact -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/21506e9718.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.8/dist/clipboard.min.js"></script>
+    <script src="./JS/script.js"></script>
+  </body>
+</html>
